@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+/* Colores CSS */
+.rojo {
+    background-color: firebrick;
+}
+
+.rosa {
+    background-color: hotpink;
+}
+
+.amarillo {
+    background-color: gold;
+}
+
+.azul {
+    background-color: turquoise;
+}
+
+/* Modfiicar varias clases */
+.rojo, .rosa, .violeta {
+    color: white;
+}

@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+/* Bordes Redondeados */
+.borde_redondeado {
+    border: solid blue;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.borde_redondeado2 {
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+
+/* Bordes CSS */
+.solido {
+    border: 10px solid red;
+}
+.discontinuo {
+    border-style: dashed;
+    border-width: thick;/* thin (delgado), medium, thick (grande) */
+    border-color: hsl(324, 100%, 50%);
+}
+.doble {
+    border: 5px double blueviolet;
+    /*           SU-IN IZ-DE */
+    border-width: 10px 5px;
+}
+.punteado {
+    border-style: dotted;
+    /*             SU  IN  IZ  DE */
+    border-width: 10px 5px 3px 2px;
+    border-color: blue hotpink gold lime;
+}
+.surco {
+    border: 10px groove;
+    /* border-width: 10px;
+    border-style: groove; */
+}
+.cresta {
+    border: 10px ridge;
+}
+.recuadro {
+    border: 10px inset;
+}
+.outset {
+    border: 10px outset;
+}
+.sin_borde {
+    border: none;
+}
+.oculto {
+    border: hidden;
+}
+.mixto {
+    border-style: dotted solid dashed double;
+}

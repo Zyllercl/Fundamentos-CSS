@@ -1,0 +1,35 @@
+
+/* Selector Universal (se aplica a todo el HTML) */
+* {
+    background-color: beige;
+}
+
+/* Estilo tipo ID */
+#titulo {
+    color: crimson;
+    text-align: center;
+}
+
+/* Estilo tipo CLASS */
+.parrafo1 {
+    color: blueviolet;
+    text-align: right;
+}
+
+.parrafo2 {
+    color:blue;
+    font-size: 25px;
+    text-align: left;
+} 
+
+/* Subclase en CSS */
+p.parrafo1 {
+    text-align: center;
+}
+
+/* Agrupar Selectores (ejemplo)*/
+
+/* h1, h2 , p {
+    color:red;
+    text-align: center;
+} */
