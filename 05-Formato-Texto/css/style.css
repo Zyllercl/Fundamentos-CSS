@@ -1,0 +1,28 @@
+
+h1 {
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase; /* Transformar texto a Mayusculas */
+    text-shadow: 2px 2px 2px #ced4da; /* Agregar una sombra al texto */
+    letter-spacing: 3px; /* Separacion de letras */
+    word-spacing: 10px; /* Separacion de palabras */
+    text-decoration: overline underline;
+}
+
+.card {
+    padding: 15px;
+    margin: auto;
+    width: 60%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+
+.texto {
+    text-align: justify; /* Texto justificado */
+    /* direction: rtl; Texto de derecha a izquierda */
+    text-indent: 30px; /* Identacion de texto */
+    line-height: 1.5; /* Incrementar espacio entre lineas */
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+}
