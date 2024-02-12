@@ -1,0 +1,19 @@
+
+
+body {
+    color: cornsilk;
+    background-attachment: fixed; /* Mantiene el fondo quieto */
+    background: dodgerblue url("/04-Fondos/img/fondo.png") no-repeat;
+    background-size: cover; /* Cambio del tamaño de la imagen para que se vea en toda la pagina */
+    /* 
+        Simplifacion de background:
+            1er - background-color -> Color de fondo
+            2do - background-image -> Imagen de fondo
+            3ro - background-repeat -> Define cuantas veces se repite la imagen
+            4to - background-position (opcional) -> Posicionamiento de la imagen
+    */
+}
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+}
