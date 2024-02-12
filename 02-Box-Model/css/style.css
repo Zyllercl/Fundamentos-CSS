@@ -1,0 +1,39 @@
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+/* Contenido */
+.card1 {
+    /*        SUP DER  INF IZQ */
+    padding: 10px 5px 15px 3px; /* Espacio que rodea el contenido */
+    border: 5px solid blue; /* Borde del contenido */
+    margin: 30px; /* Separacion de cada elemento | Centrar un elemento (auto) */
+    background-color: lightgreen; /* Color de fondo */
+    max-width: 300px; /* Ancho */
+    box-sizing: border-box; /* Ancho fijo del contenido */
+}
+
+.card2 {
+    /*        SUP DER  INF IZQ */
+    padding: 10px 5px 15px 3px; /* Espacio que rodea el contenido */
+    border: 5px solid blue; /* Borde del contenido */
+    margin: 20px; /* Separacion de cada elemento | Centrar un elemento (auto) */
+    background-color: lightgreen; /* Color de fondo */
+    max-width: 300px; /* Ancho */
+    box-sizing: border-box; /* Ancho fijo del contenido */
+}
+
+/* Heredar el Margen de un DIV a un PARRAFO de manera interna */
+/* p.interno {
+    margin: inherit;
+} */
+
+/* 
+    # Outline
+    outline: 10px solid purple;
+
+    # Separacion del borde con el outline 
+    outline-offset: 10px; 
+*/
