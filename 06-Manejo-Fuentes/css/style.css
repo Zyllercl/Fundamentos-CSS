@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap');
+
+h1 {
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+}
+
+.card {
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+.card.serif {
+    background-color: #5a189a;
+}
+.card.sans-serif {
+    background-color: #00b4d8;
+}
+.card.monospace {
+    background-color: #f15bb5;
+}
+.card.cursive {
+    background-color: #ff8500;
+}
+
+/* Tipos de Fuentes */
+.fuente_TNW {
+    /*
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; /* Estilo de la fuente 
+    font-weight: normal; /* Modificacion de la letra (negrita, etc) 
+    font-variant: small-caps; /* Mayusculas con la primera letra mas grande 
+    font-size: 20px; /* Tamaño de fuente 
+    */
+
+    /* Dejar todo en una sola linea */
+    /* font: font-style font-variant font-weigth font-size/line-height font-family */
+    font: italic small-caps bolder 20px Roboto, sans-serif;
+
+}
+.fuente_GEO {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25em; /* 1em = 16px | 1.25em = 20px */
+}
+.fuente_ARI {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 2vw; /* [Responsivo] Tamaño de la ventana, no se modifica con el ZOOM | View Width -> Ancho Pantalla | View Height -> Alto Pantalla | 1vw = 1% de la Pantalla*/
+}
+.fuente_VER {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.fuente_COU {
+    font-family: 'Courier New', Courier, monospace;
+}
+.fuente_LUC {
+    font-family: 'Lucida Handwriting', cursive;
+}
