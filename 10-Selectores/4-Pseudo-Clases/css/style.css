@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+}
+
+div.container {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+
+div.container:hover {
+    background-color: #457b9d;
+    color: violet;
+}
+
+div.container.oculto p {
+    display: none; /* Ocultar un parrafo */
+}
+
+div.container.oculto:hover p {
+    display: block;
+    background-color: #a8dadc;
+    color: black;
+    padding: 15px;
+}
+
+/* Se aplica este estilo a la primera etiqueta de parrafo (p) que encuentra */
+div.container.primero p:first-child {
+    font-variant: small-caps;
+}
