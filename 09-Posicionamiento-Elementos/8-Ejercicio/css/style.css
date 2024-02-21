@@ -1,0 +1,26 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div.container {
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 50%;
+    margin: auto;
+}
+
+img.imagen {
+    width: 100%; /* Permite ocupar el 100% de la imagen en el container */
+    opacity: 0.2;
+}
+
+div.absoluto {
+    position: absolute;
+    top: 50%;
+    /* border: 1px solid blue; */
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+}

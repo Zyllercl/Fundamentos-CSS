@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+div {
+    position: fixed; /* Se ajusta el elemento dependiendo del ViewPort (Pantalla), la posicion se mantiene fija* */
+    top: 0px;
+    right: 0px;
+    border: 3px solid violet;
+}

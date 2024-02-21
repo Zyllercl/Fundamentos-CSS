@@ -1,0 +1,30 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div.container {
+    width: 25%;
+    height: 100px;
+    overflow: auto;
+}
+
+div.container.flotado {
+    float: left;
+}
+
+div.container.flotado.contenedor1 {
+    border: 3px dashed greenyellow;
+}
+
+div.container.flotado.contenedor2 {
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+
+div.container.contenedor3{ 
+    clear: both; /* Permite independizar el contenedor de los contenedores flotados */
+    border: 3px dashed darkorange;
+    margin: auto;
+}

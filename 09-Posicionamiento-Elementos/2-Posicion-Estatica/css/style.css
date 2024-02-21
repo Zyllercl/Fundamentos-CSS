@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+    color: rgb(20, 157, 220);
+}
+
+div {
+    position: static; /* Los valores quedan estaticos, no se puede modificar la posicion: TOP-LEFT-BOTTOM-RIGHT */
+    width: 50%; /* Tamaño que ocupa la pantalla */
+    border: 3px solid blue;
+    margin: auto; /* Centrar un elemento (valores derecha e izquierda son los mismos */
+}

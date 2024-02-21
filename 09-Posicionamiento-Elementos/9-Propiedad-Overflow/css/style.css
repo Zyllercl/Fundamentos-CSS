@@ -1,0 +1,16 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div.container {
+    border: 3px dashed greenyellow;
+    width: 50%;
+    height: 100px; /* El desbordamiento solo ocurrira cuando se defina un ancho para el contenedor */
+    margin: auto;
+    /* overflow: visible; Se muestra todo lo que sobresale del Div (DEFAULT)*/
+    /* overflow: hidden; Todo lo que sobresale del Div se ocultara */
+    /* overflow: scroll; Agrega una barra de Scroll para poder leer el contenido */
+    overflow: auto; /* Se agrega una barra de scroll si es el caso */
+}

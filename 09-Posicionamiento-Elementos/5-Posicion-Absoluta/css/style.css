@@ -1,0 +1,21 @@
+
+h1 {
+    text-align: center;
+    color: rgb(226, 43, 134);
+}
+
+div.relativo {
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+
+div.absoluto {
+    position: absolute; /* Generalmente se ocupa cuando se trabaja dentro de otro DIV para ello el DIV PADRE debe tener una posicion relativa*/
+    bottom: 10px;
+    right: 10px;
+    border: 3px solid palevioletred;
+}

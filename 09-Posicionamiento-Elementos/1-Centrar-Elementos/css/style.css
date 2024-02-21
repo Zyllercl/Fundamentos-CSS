@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div {
+    /* max-width: 50%; */ /* Ajuste del DIV estatico */
+    width: 50%; /* Tamaño que ocupa la pantalla */
+    border: 3px solid firebrick;
+    margin: auto; /* Centrar un elemento (valores derecha e izquierda son los mismos */
+}

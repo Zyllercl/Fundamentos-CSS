@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+    color: rgb(226, 43, 134);
+}
+
+div {
+    position: sticky; /* Se mantiene como un elemento relativo, pero si sale de pantalla se mantiene como un elemento fixed (fijo en la pantalla) */
+    /* position: -webkit-sticky; Sirve para navegadores como Safari */ 
+    top: 0;
+    border: 3px solid palevioletred;
+}
