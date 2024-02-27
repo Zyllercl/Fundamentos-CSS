@@ -1,0 +1,41 @@
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div.container {
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+
+/* Configuracion de Pseudo Elemento */
+div.container p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+div.container p::first-line {
+    font-variant: small-caps;
+    color: blue;
+}
+
+div.container p::first-letter {
+    color: red;
+    font-size: 1.5em;
+}
+
+/* Agregar un elemento antes (Before) del parrafo */
+div.container p::before {
+    content: "- ";
+}
+/* Agregar un elemento despues (After) del parrafo */
+div.container p::after {
+    content: " -";
+    /* content: url() Tambien se puede agregar imagenes despues o antes de los elementos seleccionados */
+}
