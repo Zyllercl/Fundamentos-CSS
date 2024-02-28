@@ -1,0 +1,38 @@
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+div.container {
+    display: flex; /* Flexbox */
+    background-color: #560bad;
+    /* flex-direction: column; Los elementos se muestran en columnas */
+    /* flex-direction: row; Los elementos se muestran en filas (izquierda-derecha) */
+    /* flex-wrap: wrap; Los elementos pasan a la parte inferior si la ventana es pequeña */
+    /* justify-content: flex-start; Los elementos se cargan hacia la izquierda */
+    /* justify-content: flex-end; Los elementos se cargan hacia la derecha */
+    /* justify-content: space-between; Los elementos se cargan en las esquinas y uno en el centro */
+    /* justify-content: space-around; Los elementos se cargan en las esquinas y uno en el centro con un espacio alrededor de cada elemento */
+    /* justify-content: space-evenly; Los elementos tienen el mismo espacio entre ellos */
+    /* align-items: flex-start; Los elementos se alinean hacia la parte superior */
+    /* align-items: stretch; Los elementos se alargan por todo el div */
+    /* align-items: baseline; Se toma como linea base la parte superior del DIV, si los elementos tienen distinta fuente, la baseline partira del centro del texto dentro de los elementos  */
+
+    /* Centrar elementos dentro de un DIV */
+    flex-flow: row wrap;
+    justify-content: center; /* Los elementos se cargan hacia en centro */
+    height: 300px; /* Los elementos se alargan */
+    align-items: center; /* Los elementos se alineas hacia el centro */
+    align-content: center;
+}
+
+/* Elementos hijos del div (parrafos) */
+div.container > p {
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
