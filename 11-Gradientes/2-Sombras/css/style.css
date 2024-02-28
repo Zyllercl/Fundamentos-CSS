@@ -1,0 +1,29 @@
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px #a8dadc ; /* Sombras en el texto: Sombra-EjeX | Ancho-Sombra-EjeVertical | Blur (Difuminado) | Color: Gris  */
+    color: #e63946;
+}
+
+div.container {
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px gray; /* Sombra en el contenedor: Sombra-EjeX | Ancho-Sombra-EjeVertical | Blur (Difuminado) | Spread (Propagar) | Color: Gris */
+    color: #457b9d;
+    border-radius: 15px;
+}
+
+div.encabezado {
+    background-color: #4cc9f0;
+}
+
+div.cuerpo {
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(177, 177, 177);
+}
